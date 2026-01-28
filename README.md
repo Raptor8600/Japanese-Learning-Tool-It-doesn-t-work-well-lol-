@@ -14,4 +14,5 @@ If you want to play the actual working version of the tool (Command Line Interfa
     *   Vocabulary Browsing
 
 ## Web Version (Broken)
-The files `index.html`, `style.css`, and `app.js` contain an attempt to port this to the web. It is not finished.
+The files `index.html`, `style.css`, and `app.js` contain an attempt to port this to the web. It is not finished. To see the draft version of the web version, just open the `index.html` file.
+
