@@ -1,0 +1,194 @@
+{
+  "patterns": [
+    {
+      "triggers": ["konnichiwa", "こんにちは", "hello", "hi"],
+      "responses": [
+        {"japanese": "こんにちは！元気ですか？", "romaji": "Konnichiwa! Genki desu ka?", "english": "Hello! How are you?"},
+        {"japanese": "こんにちは！今日はいい天気ですね。", "romaji": "Konnichiwa! Kyou wa ii tenki desu ne.", "english": "Hello! It's nice weather today, isn't it?"}
+      ]
+    },
+    {
+      "triggers": ["ohayou", "おはよう", "good morning", "morning"],
+      "responses": [
+        {"japanese": "おはようございます！よく眠れましたか？", "romaji": "Ohayou gozaimasu! Yoku nemuremashita ka?", "english": "Good morning! Did you sleep well?"},
+        {"japanese": "おはよう！今日も頑張りましょう！", "romaji": "Ohayou! Kyou mo ganbarimashou!", "english": "Morning! Let's do our best today too!"}
+      ]
+    },
+    {
+      "triggers": ["konbanwa", "こんばんは", "good evening", "evening"],
+      "responses": [
+        {"japanese": "こんばんは！今日はどうでしたか？", "romaji": "Konbanwa! Kyou wa dou deshita ka?", "english": "Good evening! How was your day?"},
+        {"japanese": "こんばんは！お疲れ様でした。", "romaji": "Konbanwa! Otsukaresama deshita.", "english": "Good evening! Thanks for your hard work today."}
+      ]
+    },
+    {
+      "triggers": ["genki", "元気", "how are you", "how's it going"],
+      "responses": [
+        {"japanese": "元気ですよ！あなたは？", "romaji": "Genki desu yo! Anata wa?", "english": "I'm fine! And you?"},
+        {"japanese": "はい、元気です。ありがとう！", "romaji": "Hai, genki desu. Arigatou!", "english": "Yes, I'm well. Thank you!"},
+        {"japanese": "まあまあです。", "romaji": "Maa maa desu.", "english": "So-so."}
+      ]
+    },
+    {
+      "triggers": ["arigatou", "ありがとう", "thank you", "thanks"],
+      "responses": [
+        {"japanese": "どういたしまして！", "romaji": "Dou itashimashite!", "english": "You're welcome!"},
+        {"japanese": "いいえ、こちらこそ。", "romaji": "Iie, kochira koso.", "english": "No, thank you (lit. 'this side too')."}
+      ]
+    },
+    {
+      "triggers": ["sumimasen", "すみません", "excuse me", "sorry"],
+      "responses": [
+        {"japanese": "大丈夫ですよ！", "romaji": "Daijoubu desu yo!", "english": "It's okay!"},
+        {"japanese": "いいえ、気にしないでください。", "romaji": "Iie, ki ni shinaide kudasai.", "english": "No, please don't worry about it."}
+      ]
+    },
+    {
+      "triggers": ["hajimemashite", "はじめまして", "nice to meet you"],
+      "responses": [
+        {"japanese": "はじめまして！よろしくお願いします。", "romaji": "Hajimemashite! Yoroshiku onegaishimasu.", "english": "Nice to meet you! Please treat me well."},
+        {"japanese": "こちらこそ、よろしくお願いします！", "romaji": "Kochira koso, yoroshiku onegaishimasu!", "english": "Likewise, pleased to meet you!"}
+      ]
+    },
+    {
+      "triggers": ["namae", "名前", "name", "what is your name", "who are you"],
+      "responses": [
+        {"japanese": "私は日本語先生です。あなたのお名前は？", "romaji": "Watashi wa nihongo sensei desu. Anata no onamae wa?", "english": "I am a Japanese teacher. What is your name?"},
+        {"japanese": "私の名前は「日本語ヘルパー」です！", "romaji": "Watashi no namae wa 'Nihongo Herupaa' desu!", "english": "My name is 'Japanese Helper'!"}
+      ]
+    },
+    {
+      "triggers": ["sayounara", "さようなら", "goodbye", "bye"],
+      "responses": [
+        {"japanese": "さようなら！また会いましょう！", "romaji": "Sayounara! Mata aimashou!", "english": "Goodbye! Let's meet again!"},
+        {"japanese": "じゃあね！頑張ってね！", "romaji": "Jaa ne! Ganbatte ne!", "english": "See you! Do your best!"}
+      ]
+    },
+    {
+      "triggers": ["mata", "また", "see you", "later"],
+      "responses": [
+        {"japanese": "またね！気をつけてね！", "romaji": "Mata ne! Ki wo tsukete ne!", "english": "See you! Take care!"},
+        {"japanese": "また明日！", "romaji": "Mata ashita!", "english": "See you tomorrow!"}
+      ]
+    },
+    {
+      "triggers": ["oyasumi", "おやすみ", "good night", "night"],
+      "responses": [
+        {"japanese": "おやすみなさい！いい夢を見てね！", "romaji": "Oyasuminasai! Ii yume wo mite ne!", "english": "Good night! Sweet dreams!"},
+        {"japanese": "おやすみ！ゆっくり休んでね。", "romaji": "Oyasumi! Yukkuri yasunde ne.", "english": "Night! Rest well."}
+      ]
+    },
+    {
+      "triggers": ["oishii", "美味しい", "delicious", "yummy", "tasty"],
+      "responses": [
+        {"japanese": "本当ですか？よかったです！", "romaji": "Hontou desu ka? Yokatta desu!", "english": "Really? I'm glad!"},
+        {"japanese": "日本料理は美味しいですね！", "romaji": "Nihon ryouri wa oishii desu ne!", "english": "Japanese food is delicious, isn't it!"}
+      ]
+    },
+    {
+      "triggers": ["taberu", "食べる", "eat", "eating", "hungry", "onaka"],
+      "responses": [
+        {"japanese": "何を食べたいですか？", "romaji": "Nani wo tabetai desu ka?", "english": "What would you like to eat?"},
+        {"japanese": "ご飯を食べましょう！", "romaji": "Gohan wo tabemashou!", "english": "Let's eat a meal!"}
+      ]
+    },
+    {
+      "triggers": ["suki", "好き", "like", "love", "favorite"],
+      "responses": [
+        {"japanese": "私も好きです！", "romaji": "Watashi mo suki desu!", "english": "I like it too!"},
+        {"japanese": "何が一番好きですか？", "romaji": "Nani ga ichiban suki desu ka?", "english": "What do you like the most?"}
+      ]
+    },
+    {
+      "triggers": ["muzukashii", "難しい", "difficult", "hard"],
+      "responses": [
+        {"japanese": "大丈夫！練習すれば上手になりますよ。", "romaji": "Daijoubu! Renshuu sureba jouzu ni narimasu yo.", "english": "It's okay! If you practice, you'll get better."},
+        {"japanese": "日本語は難しいですが、楽しいですね！", "romaji": "Nihongo wa muzukashii desu ga, tanoshii desu ne!", "english": "Japanese is difficult, but it's fun, isn't it!"}
+      ]
+    },
+    {
+      "triggers": ["tanoshii", "楽しい", "fun", "enjoy"],
+      "responses": [
+        {"japanese": "楽しいですね！日本語の勉強を続けましょう！", "romaji": "Tanoshii desu ne! Nihongo no benkyou wo tsuzukemashou!", "english": "It's fun, isn't it! Let's continue studying Japanese!"},
+        {"japanese": "それはよかったです！", "romaji": "Sore wa yokatta desu!", "english": "That's great!"}
+      ]
+    },
+    {
+      "triggers": ["wakaranai", "wakarimasen", "わからない", "わかりません", "don't understand", "confused"],
+      "responses": [
+        {"japanese": "大丈夫ですよ。もう一度説明しましょうか？", "romaji": "Daijoubu desu yo. Mou ichido setsumei shimashou ka?", "english": "It's okay. Shall I explain again?"},
+        {"japanese": "ゆっくり練習しましょう。", "romaji": "Yukkuri renshuu shimashou.", "english": "Let's practice slowly."}
+      ]
+    },
+    {
+      "triggers": ["nihongo", "日本語", "japanese"],
+      "responses": [
+        {"japanese": "日本語を勉強していますか？すごいですね！", "romaji": "Nihongo wo benkyou shite imasu ka? Sugoi desu ne!", "english": "Are you studying Japanese? That's amazing!"},
+        {"japanese": "日本語は美しい言語ですね。", "romaji": "Nihongo wa utsukushii gengo desu ne.", "english": "Japanese is a beautiful language, isn't it."}
+      ]
+    },
+    {
+      "triggers": ["benkyou", "勉強", "study", "learn", "learning"],
+      "responses": [
+        {"japanese": "勉強頑張ってね！", "romaji": "Benkyou ganbatte ne!", "english": "Good luck with your studies!"},
+        {"japanese": "毎日少しずつ勉強するのが大切ですよ。", "romaji": "Mainichi sukoshi zutsu benkyou suru no ga taisetsu desu yo.", "english": "It's important to study a little bit every day."}
+      ]
+    },
+    {
+      "triggers": ["weather", "tenki", "天気", "hot", "cold", "rain"],
+      "responses": [
+        {"japanese": "今日の天気はどうですか？", "romaji": "Kyou no tenki wa dou desu ka?", "english": "How's the weather today?"},
+        {"japanese": "いい天気だといいですね！", "romaji": "Ii tenki da to ii desu ne!", "english": "I hope the weather is nice!"}
+      ]
+    },
+    {
+      "triggers": ["tsukareta", "疲れた", "tired"],
+      "responses": [
+        {"japanese": "お疲れ様です。少し休んでください。", "romaji": "Otsukaresama desu. Sukoshi yasunde kudasai.", "english": "Thanks for your hard work. Please rest a bit."},
+        {"japanese": "大変でしたね。ゆっくり休んでね。", "romaji": "Taihen deshita ne. Yukkuri yasunde ne.", "english": "That was tough, wasn't it. Take it easy."}
+      ]
+    },
+    {
+      "triggers": ["help", "tasukete", "助けて"],
+      "responses": [
+        {"japanese": "はい、何をお手伝いしましょうか？", "romaji": "Hai, nani wo otetsudai shimashou ka?", "english": "Yes, how can I help you?"},
+        {"japanese": "どうしましたか？", "romaji": "Dou shimashita ka?", "english": "What happened?"}
+      ]
+    },
+    {
+      "triggers": ["sugoi", "すごい", "amazing", "awesome", "cool", "wow"],
+      "responses": [
+        {"japanese": "本当にすごいですね！", "romaji": "Hontou ni sugoi desu ne!", "english": "It's really amazing!"},
+        {"japanese": "すごい！よくできました！", "romaji": "Sugoi! Yoku dekimashita!", "english": "Amazing! Well done!"}
+      ]
+    },
+    {
+      "triggers": ["kawaii", "かわいい", "cute"],
+      "responses": [
+        {"japanese": "かわいいですね！", "romaji": "Kawaii desu ne!", "english": "It's cute, isn't it!"},
+        {"japanese": "とてもかわいい！", "romaji": "Totemo kawaii!", "english": "So cute!"}
+      ]
+    },
+    {
+      "triggers": ["yes", "hai", "はい"],
+      "responses": [
+        {"japanese": "そうですか。いいですね！", "romaji": "Sou desu ka. Ii desu ne!", "english": "I see. That's good!"},
+        {"japanese": "わかりました！", "romaji": "Wakarimashita!", "english": "Understood!"}
+      ]
+    },
+    {
+      "triggers": ["no", "iie", "いいえ"],
+      "responses": [
+        {"japanese": "そうですか。大丈夫ですよ。", "romaji": "Sou desu ka. Daijoubu desu yo.", "english": "I see. It's okay."},
+        {"japanese": "わかりました。", "romaji": "Wakarimashita.", "english": "Understood."}
+      ]
+    }
+  ],
+  "default_responses": [
+    {"japanese": "なるほど。もっと教えてください。", "romaji": "Naruhodo. Motto oshiete kudasai.", "english": "I see. Please tell me more."},
+    {"japanese": "面白いですね！", "romaji": "Omoshiroi desu ne!", "english": "That's interesting!"},
+    {"japanese": "そうですか。", "romaji": "Sou desu ka.", "english": "Is that so?"},
+    {"japanese": "日本語で話してみましょう！", "romaji": "Nihongo de hanashite mimashou!", "english": "Let's try speaking in Japanese!"},
+    {"japanese": "もう一度お願いします。", "romaji": "Mou ichido onegaishimasu.", "english": "Once more, please."}
+  ]
+}

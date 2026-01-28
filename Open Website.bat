@@ -1,0 +1,3 @@
+@echo off
+title Opening Nihongo Helper...
+start "" "%~dp0index.html"

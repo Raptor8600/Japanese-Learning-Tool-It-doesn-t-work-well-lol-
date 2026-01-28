@@ -1,0 +1,67 @@
+{
+  "greetings": [
+    {"kanji": "こんにちは", "romaji": "Konnichiwa", "english": "Hello / Good afternoon"},
+    {"kanji": "おはよう", "romaji": "Ohayou", "english": "Good morning (casual)"},
+    {"kanji": "おはようございます", "romaji": "Ohayou gozaimasu", "english": "Good morning (polite)"},
+    {"kanji": "こんばんは", "romaji": "Konbanwa", "english": "Good evening"},
+    {"kanji": "おやすみなさい", "romaji": "Oyasuminasai", "english": "Good night"},
+    {"kanji": "さようなら", "romaji": "Sayounara", "english": "Goodbye"},
+    {"kanji": "じゃあね", "romaji": "Jaa ne", "english": "See you (casual)"},
+    {"kanji": "またね", "romaji": "Mata ne", "english": "See you later"},
+    {"kanji": "いってきます", "romaji": "Ittekimasu", "english": "I'm leaving (departing)"},
+    {"kanji": "いってらっしゃい", "romaji": "Itterasshai", "english": "Take care (response)"},
+    {"kanji": "ただいま", "romaji": "Tadaima", "english": "I'm home"},
+    {"kanji": "おかえりなさい", "romaji": "Okaerinasai", "english": "Welcome home"}
+  ],
+  "common_phrases": [
+    {"kanji": "ありがとう", "romaji": "Arigatou", "english": "Thank you (casual)"},
+    {"kanji": "ありがとうございます", "romaji": "Arigatou gozaimasu", "english": "Thank you (polite)"},
+    {"kanji": "どういたしまして", "romaji": "Dou itashimashite", "english": "You're welcome"},
+    {"kanji": "すみません", "romaji": "Sumimasen", "english": "Excuse me / Sorry"},
+    {"kanji": "ごめんなさい", "romaji": "Gomen nasai", "english": "I'm sorry"},
+    {"kanji": "はい", "romaji": "Hai", "english": "Yes"},
+    {"kanji": "いいえ", "romaji": "Iie", "english": "No"},
+    {"kanji": "お願いします", "romaji": "Onegaishimasu", "english": "Please"},
+    {"kanji": "わかりました", "romaji": "Wakarimashita", "english": "I understand"},
+    {"kanji": "わかりません", "romaji": "Wakarimasen", "english": "I don't understand"},
+    {"kanji": "日本語がわかりません", "romaji": "Nihongo ga wakarimasen", "english": "I don't understand Japanese"},
+    {"kanji": "英語を話せますか", "romaji": "Eigo wo hanasemasu ka", "english": "Do you speak English?"},
+    {"kanji": "もう一度お願いします", "romaji": "Mou ichido onegaishimasu", "english": "Once more, please"},
+    {"kanji": "ゆっくり話してください", "romaji": "Yukkuri hanashite kudasai", "english": "Please speak slowly"},
+    {"kanji": "ちょっと待ってください", "romaji": "Chotto matte kudasai", "english": "Please wait a moment"}
+  ],
+  "questions": [
+    {"kanji": "これはなんですか？", "romaji": "Kore wa nan desu ka?", "english": "What is this?"},
+    {"kanji": "それはなんですか？", "romaji": "Sore wa nan desu ka?", "english": "What is that?"},
+    {"kanji": "どこですか？", "romaji": "Doko desu ka?", "english": "Where is it?"},
+    {"kanji": "いくらですか？", "romaji": "Ikura desu ka?", "english": "How much is it?"},
+    {"kanji": "だれですか？", "romaji": "Dare desu ka?", "english": "Who is it?"},
+    {"kanji": "いつですか？", "romaji": "Itsu desu ka?", "english": "When is it?"}
+  ],
+  "numbers": [
+    {"kanji": "一", "romaji": "Ichi", "english": "One (1)"},
+    {"kanji": "二", "romaji": "Ni", "english": "Two (2)"},
+    {"kanji": "三", "romaji": "San", "english": "Three (3)"},
+    {"kanji": "四", "romaji": "Yon / Shi", "english": "Four (4)"},
+    {"kanji": "五", "romaji": "Go", "english": "Five (5)"},
+    {"kanji": "六", "romaji": "Roku", "english": "Six (6)"},
+    {"kanji": "七", "romaji": "Nana / Shichi", "english": "Seven (7)"},
+    {"kanji": "八", "romaji": "Hachi", "english": "Eight (8)"},
+    {"kanji": "九", "romaji": "Kyuu / Ku", "english": "Nine (9)"},
+    {"kanji": "十", "romaji": "Juu", "english": "Ten (10)"}
+  ],
+  "food_and_drink": [
+    {"kanji": "水", "romaji": "Mizu", "english": "Water"},
+    {"kanji": "お茶", "romaji": "Ocha", "english": "Tea"},
+    {"kanji": "コーヒー", "romaji": "Koohii", "english": "Coffee"},
+    {"kanji": "ご飯", "romaji": "Gohan", "english": "Rice / Meal"},
+    {"kanji": "パン", "romaji": "Pan", "english": "Bread"},
+    {"kanji": "肉", "romaji": "Niku", "english": "Meat"},
+    {"kanji": "魚", "romaji": "Sakana", "english": "Fish"},
+    {"kanji": "野菜", "romaji": "Yasai", "english": "Vegetables"},
+    {"kanji": "果物", "romaji": "Kudamono", "english": "Fruit"},
+    {"kanji": "寿司", "romaji": "Sushi", "english": "Sushi"},
+    {"kanji": "ラーメン", "romaji": "Raamen", "english": "Ramen"},
+    {"kanji": "美味しい", "romaji": "Oishii", "english": "Delicious"}
+  ]
+}

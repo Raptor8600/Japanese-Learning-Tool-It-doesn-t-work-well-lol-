@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongo Helper - Learn Japanese</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Serif+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Wanakana for Romaji input -->
+    <script src="https://unpkg.com/wanakana@latest/wanakana.min.js"></script>
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass">
+            <div class="logo">日本語</div>
+            <div class="nav-links">
+                <button class="nav-btn active" data-tab="conversation">Kaiwa (Chat)</button>
+                <button class="nav-btn" data-tab="flashcards">Kanji (Flashcards)</button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <!-- Conversation Tab -->
+            <section id="conversation" class="tab-content active">
+                <div class="chat-header glass">
+                    <h2>日本語ヘルパー</h2>
+                    <span class="romaji-sub">Nihongo Herupaa</span>
+                </div>
+                <div id="chat-messages" class="chat-messages">
+                    <!-- Messages will appear here -->
+                    <div class="message ai glass">
+                        <div class="message-content">
+                            <p class="jp-text">こんにちは！日本語を練習しましょう！</p>
+                            <p class="romaji-text">Konnichiwa! Nihongo wo renshuu shimashou!</p>
+                            <p class="en-text">Hello! Let's practice Japanese!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-area glass">
+                    <div class="input-controls">
+                        <select id="input-mode" class="glass-select">
+                            <option value="romaji">Romaji (Convert)</option>
+                            <option value="japanese">Japanese (Direct)</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" id="user-input" placeholder="Type..." autocomplete="off">
+                        <button id="send-btn">➤</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Kanji Section -->
+            <section id="flashcards" class="tab-content">
+                <div class="flashcard-container">
+                    <div class="flashcard-controls glass">
+                        <select id="flashcard-level" class="glass-select">
+                            <option value="all">All Levels</option>
+                            <option value="5">JLPT N5</option>
+                            <option value="4">JLPT N4</option>
+                            <option value="3">JLPT N3</option>
+                            <option value="2">JLPT N2</option>
+                            <option value="1">JLPT N1</option>
+                        </select>
+                        <select id="flashcard-mode" class="glass-select">
+                            <option value="browse">Browse Mode</option>
+                            <option value="quiz">Quiz Mode</option>
+                        </select>
+                        <button id="next-card-btn" class="glass-btn">Next Kanji ➤</button>
+                    </div>
+
+                    <div class="scene">
+                        <div class="card">
+                            <div class="card-face card-front glass">
+                                <div class="kanji-large">字</div>
+                                <div class="kanji-reading"></div>
+                                <div class="hint-text">Click to Flip</div>
+                            </div>
+                            <div class="card-face card-back glass">
+                                <div class="card-details">
+                                    <h3 class="meaning">Character</h3>
+                                    <div class="readings">
+                                        <p><strong>On:</strong> <span class="onyomi">JI</span></p>
+                                        <p><strong>Kun:</strong> <span class="kunyomi">aza</span></p>
+                                    </div>
+                                    <div class="meta-info">
+                                        <span class="jlpt-badge">N5</span>
+                                        <span class="stroke-count">Stroke: 6</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Input (BELOW the card) -->
+                    <div id="quiz-section" class="quiz-section glass" style="display: none;">
+                        <p class="quiz-prompt">What does this kanji mean? Type your answer below:</p>
+                        <div class="quiz-input-wrapper">
+                            <input type="text" id="quiz-answer" class="quiz-input" placeholder="Type your answer (English or Romaji)..." autocomplete="off">
+                            <button id="submit-quiz" class="glass-btn primary">Check</button>
+                        </div>
+                        <div id="quiz-feedback" class="quiz-feedback"></div>
+                        <div class="quiz-stats">
+                            <span>Score: <span id="quiz-score">0</span> / <span id="quiz-total">0</span></span>
+                            <span id="quiz-streak">🔥 Streak: 0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="kanji_data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
